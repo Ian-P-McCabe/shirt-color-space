@@ -39,10 +39,10 @@
             distance between them. This would work, however...
         </p>
         <p>
-            If we want to pick 16 colors, we must run 2,245,547,413,628,550,570 calculations! (2 quintillion)
+            If we want to pick 16 colors, we must score 2,245,547,413,628,550,570 possible combinations! (2 quintillion)
         </p>
         <p>
-            And if we want to pick 24 colors, we must run 178,409,928,551,259,450,861,900 calculations! (178 sextillion)
+            And if we want to pick 24 colors, we must score 178,409,928,551,259,450,861,900 possible combinations! (178 sextillion)
         </p>
 
         <p>
@@ -172,6 +172,11 @@
                 </table>
             </div>
 
+            <p> The lowest scoring (76.29) greedy color palette looks like this:</p>
+            <div id="lowestGreedyColors" class="rectangle-container"></div>
+            <p>Lots of Blue/Purple and Red/Orange. This is how the dodgeball league looks most seasons.</p>
+
+
             <p> The best (81.92) greedy color palette looks like this:</p>
             <div id="highestGreedyColors" class="rectangle-container"></div>
             <p>
@@ -179,9 +184,7 @@
                 (They are unique colors though)
             </p>
 
-<!--            <p> A high scoring (76.29, to be exact) random color palette looks like this:</p>-->
-<!--            <div id="highestRandomColors" class="rectangle-container"></div>-->
-<!--            <p>An improvement, but we can do better.</p>-->
+
 
         </div>
 
@@ -190,7 +193,11 @@
             <p>
                 What is a Convex Hull? The formal definition is "The intersection
                 of all convex sets containing a given subset of Euclidean space."
-                However, an image outlining what the convex hull of a set of points
+                </p>
+
+            <p> Huh. </p>
+            <p>
+                An image outlining what the convex hull of a set of points
                 looks like is far more intuitive:
             </p>
 
@@ -200,7 +207,7 @@
 
             <p>
                 The example above is for 2D space, but the idea is the same for 3d space. We can see the convex hull
-                for the set of colors below.
+                for the set of all colors below.
             </p>
 
 <!--            <div class="iframeDiv">-->
@@ -215,6 +222,11 @@
 <!--            <div class="iframeDiv">-->
 <!--                <iframe src="plots/All_Points_Convex_Hull_350x350.html"></iframe>-->
 <!--            </div>-->
+
+            <p>
+                Incredibly, the convex hull of the shirt colors contains 21 points. We can easily remove the
+                5 points with the average closest distance to the set to get us down to 16 colors.
+            </p>
 
 
         </div>

@@ -48,3 +48,7 @@ createShirtColorList(highestColors, highestColorsContainer)
 const highestGreedyColors = await getData("https://raw.githubusercontent.com/Ian-P-McCabe/shirt-color-space/refs/heads/main/part_2/assets/highest_greedy_colors.json")
 const highestGreedyColorsContainer = document.getElementById("highestGreedyColors")
 createShirtColorList(highestGreedyColors, highestGreedyColorsContainer)
+
+const lowestGreedyColors = await getData("https://raw.githubusercontent.com/Ian-P-McCabe/shirt-color-space/refs/heads/main/part_2/assets/lowest_greedy_colors.json")
+const lowestGreedyColorsContainer = document.getElementById("lowestGreedyColors")
+createShirtColorList(lowestGreedyColors, lowestGreedyColorsContainer)
