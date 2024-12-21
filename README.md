@@ -1,6 +1,6 @@
 # Heading Here
 
-| code  | color                                           |
-| :---- |:------------------------------------------------|
-| #0F0  | <span style="color:rgb(0,200,0)">&#9724;</span> |
-| #F00  | <span style="color:rgb(200,0,0)">&#9724;</span> |
+| code  | color                                             |
+|:------|:--------------------------------------------------|
+| color | <h1 style="background-color:#ee82ee;">#ee82ee</h1> |
+| color | <h1 style="background-color:#6a5acd;">#6a5acd</h1>|
