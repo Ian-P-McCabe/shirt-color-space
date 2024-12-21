@@ -1,8 +1,5 @@
-# Heading Here
+# Color Math
 
-| code  | color                                               |
-|:------|:----------------------------------------------------|
-| color | <svg width="300" height="130" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" x="10" y="10" rx="20" ry="20" fill="blue" /></svg> |
-| color | <h1 style="background-color:#6a5acd;">#6a5acd</h1>  |
-
-<svg width="300" height="130" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" x="10" y="10" rx="20" ry="20" fill="blue" /></svg>
+Too many teams in the dodgeball league are the same color.
+This project tires to solve this issue with math and the 
+Lab colorspace.
