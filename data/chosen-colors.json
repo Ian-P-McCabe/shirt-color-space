@@ -1,0 +1,98 @@
+[
+  {
+    "Shirt Color": "Heather Ice Blue",
+    "Pantone Color": "317 CP",
+    "L*a*b Value": "85.65, -11.38, -2.20",
+    "HEX": "BDDDD9"
+  },
+  {
+    "Shirt Color": "Berry",
+    "Pantone Color": "233 CP",
+    "L*a*b Value": "45.38, 71.84, -7.30",
+    "HEX": "C6057B"
+  },
+  {
+    "Shirt Color": "Oxblood Black",
+    "Pantone Color": "7449 CP",
+    "L*a*b Value": "28.13, 16.23, -6.49",
+    "HEX": "55394D"
+  },
+  {
+    "Shirt Color": "White",
+    "Pantone Color": "White C",
+    "L*a*b Value": "100, 0, 0",
+    "HEX": "FFFFFF"
+  },
+  {
+    "Shirt Color": "Ash",
+    "Pantone Color": "428 CP",
+    "L*a*b Value": "78.50, -2.14, -0.31",
+    "HEX": "BDC4C2"
+  },
+  {
+    "Shirt Color": "Gold",
+    "Pantone Color": "137 C",
+    "L*a*b Value": "76.47, 31.14, 81.64",
+    "HEX": "FFA400"
+  },
+  {
+    "Shirt Color": "Yellow",
+    "Pantone Color": "100 CP",
+    "L*a*b Value": "92.09, -6.83, 62.42",
+    "HEX": "F6EB69"
+  },
+  {
+    "Shirt Color": "Deep Teal",
+    "Pantone Color": "3025 CP",
+    "L*a*b Value": "32.45, -23.19, -27.24",
+    "HEX": "005876"
+  },
+  {
+    "Shirt Color": "Heather Maroon",
+    "Pantone Color": "7644 CP",
+    "L*a*b Value": "27.76, 25.21, -2.86",
+    "HEX": "603147"
+  },
+  {
+    "Shirt Color": "Evergreen",
+    "Pantone Color": "343 C",
+    "L*a*b Value": "31.90, -26.89, 6.33",
+    "HEX": "115740"
+  },
+  {
+    "Shirt Color": "Red",
+    "Pantone Color": "200 C",
+    "L*a*b Value": "41.43, 65.63, 34.16",
+    "HEX": "BA0C2F"
+  },
+  {
+    "Shirt Color": "Leaf",
+    "Pantone Color": "2263 CP",
+    "L*a*b Value": "57.33, -18.14, 19.97",
+    "HEX": "729364"
+  },
+  {
+    "Shirt Color": "Pink",
+    "Pantone Color": "705 C",
+    "L*a*b Value": "89.66, 10.65, 1.15",
+    "HEX": "F5DADF"
+  },
+  {
+    "Shirt Color": "Heather True Royal",
+    "Pantone Color": "286 CP",
+    "L*a*b Value": "30.46, 7.90, -44.70",
+    "HEX": "24468E"
+  },
+  {
+    "Shirt Color": "Heather Team Purple",
+    "Pantone Color": "2665 C",
+    "L*a*b Value": "45.45, 34.51, -52.90",
+    "HEX": "7D55C7"
+  },
+  {
+    "Shirt Color": "Solid Black Blend",
+    "Pantone Color": "Black C",
+    "L*a*b Value": "0, 0, 0",
+    "HEX": "00000"
+  }
+]

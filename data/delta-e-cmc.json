@@ -1,0 +1,72 @@
+[
+  {
+    "Shirt Color Name": "Poppy",
+    "PMS Color Code": "2347C",
+    "L*a*b Value": "49.45, 75.12, 67.21",
+    "Hex": "E10600",
+    "Distance": 13.7221505825
+  },
+  {
+    "Shirt Color Name": "Maize Yellow",
+    "PMS Color Code": "7548CP",
+    "L*a*b Value": "83.14, 5.01, 85.02",
+    "Hex": "F2CA00",
+    "Distance": 12.9896382702
+  },
+  {
+    "Shirt Color Name": "Orange",
+    "PMS Color Code": "1645C",
+    "L*a*b Value": "65.69, 58.38, 58.65",
+    "Hex": "FF6A39",
+    "Distance": 11.9356878454
+  },
+  {
+    "Shirt Color Name": "Heather Orange",
+    "PMS Color Code": "1645 C",
+    "L*a*b Value": "65.69, 58.38, 58.65",
+    "Hex": "FF6A39",
+    "Distance": 11.9356878454
+  },
+  {
+    "Shirt Color Name": "Heather Kelly",
+    "PMS Color Code": "340 C",
+    "L*a*b Value": "51.80, -65.36, 14.55",
+    "Hex": "00965E",
+    "Distance": 11.5537956128
+  },
+  {
+    "Shirt Color Name": "Teal",
+    "PMS Color Code": "3262C",
+    "L*a*b Value": "66.44, -59.33, -12.05",
+    "Hex": "00BFB2",
+    "Distance": 11.1064152933
+  },
+  {
+    "Shirt Color Name": "Heather Yellow",
+    "PMS Color Code": "100 CP",
+    "L*a*b Value": "92.09, -6.83, 62.42",
+    "Hex": "F6EB69",
+    "Distance": 10.9616031283
+  },
+  {
+    "Shirt Color Name": "Burnt Orange",
+    "PMS Color Code": "159C",
+    "L*a*b Value": "54.43, 43.54, 58.62",
+    "Hex": "CB6015",
+    "Distance": 10.7490245757
+  },
+  {
+    "Shirt Color Name": "Heather Red",
+    "PMS Color Code": "193C",
+    "L*a*b Value": "42.79, 66.14, 27.76",
+    "Hex": "BF0D3E",
+    "Distance": 10.2827573165
+  },
+  {
+    "Shirt Color Name": "Heather Yellow Gold",
+    "PMS Color Code": "134 C",
+    "L*a*b Value": "86.67, 8.31, 54.63",
+    "Hex": "FDD26E",
+    "Distance": 9.8483627605
+  }
+]
