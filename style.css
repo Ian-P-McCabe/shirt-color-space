@@ -21,14 +21,14 @@ body {
 }
 
 .rectangle {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border-radius: 20px;
 }
 
 #center-me {
     width: 95%;
-    max-width: 1200px;
+    /*max-width: 1200px;*/
     text-align: center;
 }
 
@@ -39,10 +39,10 @@ body {
 
 p {
     text-align: left;
-    font-size: x-large;
+    font-size: large;
 }
 
 li {
     text-align: left;
-    font-size: x-large;
+    font-size: large;
 }
