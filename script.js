@@ -24,7 +24,7 @@ colorList.forEach(color => {
     // Create a container for the rectangle and text
     const itemContainer = document.createElement('div');
     itemContainer.style.textAlign = 'center';
-    itemContainer.style.margin = '10px';
+    itemContainer.style.margin = '5px';
 
     // Create the rectangle
     const rect = document.createElement('div');
@@ -34,10 +34,10 @@ colorList.forEach(color => {
     // Create the text label
     const label = document.createElement('div');
     label.textContent = `${color["Shirt Color"]}`;
-    label.style.marginTop = '5px';
+    label.style.marginTop = '2px';
     label.style.fontSize = '12px';
     label.style.color = '#333'; // Adjust the color as needed
-    label.style.maxWidth = '100px'
+    label.style.maxWidth = '75px'
 
     // Append the rectangle and label to the container
     itemContainer.appendChild(rect);

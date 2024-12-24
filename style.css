@@ -16,7 +16,6 @@ body {
 }
 
 .rectangle-container > div {
-    flex: 0 1 calc(25% - 50px); /* Each item takes 25% of the row width minus the gap */
     box-sizing: border-box; /* Ensure padding/borders don't affect width */
 }
 
@@ -45,4 +44,8 @@ p {
 li {
     text-align: left;
     font-size: large;
+}
+
+h1 {
+    text-align: left;
 }
