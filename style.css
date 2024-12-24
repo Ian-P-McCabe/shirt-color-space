@@ -30,7 +30,16 @@ body {
   text-align: center;
 }
 
-#3dcontent{
-    justify-content: center;
-    margin: 0 auto;
+#testiframe{
+    border: none;
+    overflow: hidden;
+}
+
+.myclass{
+
+}
+
+p {
+    text-align: left;
+    font-size: large;
 }

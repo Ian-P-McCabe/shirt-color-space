@@ -9,11 +9,22 @@
 </head>
 <body>
 <div id="center-me">
-        <h1>Current League</h1>
-        <div class="rectangle-container" id="rectangleContainer"></div>
+    <h1>Current League</h1>
+    <div class="myclass">
 
-        <h1>Explore The Current League Color Space in 3D!</h1>
-        <div id="3dcontent"></div>
+
+        <div class="rectangle-container" id="rectangleContainer">
+            <p>
+                The Stonewall Dodgeball league in DC has a problem - we need to select more shirt colors
+                but it looks like the entire rainbow has been chosen!
+            </p>
+        </div>
+
+    </div>
+
+    <h1>Explore The Current League Color Space in 3D!</h1>
+    <iframe src="Chosen_Colors_test.html" width="750px" height="750px" id="testiframe"></iframe>
+
     <h1>Delta E-CMC Proposed Additions</h1>
     <h2>From Most to Least Distant</h2>
     <div class="rectangle-container" id="deltaECMC"></div>
@@ -24,11 +35,11 @@
 
     <script type=module src="script.js"></script>
 
-    <script>
-        $(document).ready(function () {
-            $("#3dcontent").load("Chosen_Colors.html");
-        });
-    </script>
+    <!--    <script>-->
+    <!--        $(document).ready(function () {-->
+    <!--            $("#3dcontent").load("Chosen_Colors_test.html");-->
+    <!--        });-->
+    <!--    </script>-->
 </div>
 </body>
 </html>

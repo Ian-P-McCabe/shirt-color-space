@@ -11,7 +11,16 @@ const CMCContainer = document.getElementById('deltaECMC')
 const CIEContainer = document.getElementById('deltaECIE')
 
 // Create rectangles dynamically
-chosenColors.forEach(color => {
+const colorList = []
+chosenColors.forEach(color => colorList.push(color))
+colorList.sort((a,b) => {
+    const hexA= parseInt(a.HEX, 16)
+    const hexB = parseInt(b.HEX, 16)
+    return hexB - hexA
+    }
+)
+
+colorList.forEach(color => {
     // Create a container for the rectangle and text
     const itemContainer = document.createElement('div');
     itemContainer.style.textAlign = 'center';
