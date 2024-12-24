@@ -12,9 +12,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 2px;
-    max-width: 50%;
     justify-content: center;
-    margin: 0 auto;
 }
 
 .rectangle-container > div {
@@ -23,13 +21,13 @@ body {
 }
 
 .rectangle {
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     border-radius: 20px;
 }
 
 #center-me {
-    width: 90%;
+    width: 95%;
     max-width: 1200px;
     text-align: center;
 }
@@ -39,15 +37,12 @@ body {
     overflow: hidden;
 }
 
-.myclass {
-
-}
-
-.text-container {
-    margin-left: 25%;
-    margin-right: 25%;
-}
 p {
     text-align: left;
-    font-size: large;
+    font-size: x-large;
+}
+
+li {
+    text-align: left;
+    font-size: x-large;
 }

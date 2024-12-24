@@ -9,25 +9,49 @@
 </head>
 <body>
 <div id="center-me">
-    <h1>Current League</h1>
+    <h1>Dodgeball League Color Problem</h1>
     <div class="myclass">
-
-
         <div class="rectangle-container" id="rectangleContainer">
             <p>
                 The Stonewall Dodgeball league in DC has a problem - we need to select more shirt colors
-                but it looks like the entire rainbow has been chosen!
+                but it looks like we've already used the entire rainbow!
             </p>
         </div>
 
         <div class="text-container">
             <p>
-                Luckily there is a solution.
+                Luckily there is a solution. The company we order shirts from provides the Pantone Matching System
+                (PMS) codes for almost all of their shirts. You can see what this looks like below.
             </p>
+            <img src="assets/Solid_Shirt_Colors.png" style="max-width: 100%"
+                 alt="A grid of shirt colors captioned with color name and PMS code"
+            />
+            <p>
+                We can gather detailed information about the shirt color using these PMS codes. Specifically the
+                HEX value and LAB value for the color. You can see an example below:
+            </p>
+            <img src="assets/Pantone_Gold.png" style="max-width: 100%"
+                 alt="Pantone Gold PMS 137C with associated color data."
+            />
         </div>
-
-
     </div>
+
+    <h1>What's LAB?</h1>
+    <p>
+        Think of LAB color as a way to describe colors that matches how our human eyes actually see them.
+        LAB breaks color down into three parts that make more intuitive sense:
+    </p>
+    <ul>
+        <li>L - How light or dark something is (like adjusting the brightness on your TV)</li>
+        <li> A - How red or green something is</li>
+        <li> B - How blue or yellow something is
+        </li>
+    </ul>
+
+    <p>
+        Using LAB values, we can plot colors in 3D space! You can see the colors currently selected below.
+    </p>
+
 
     <h1>Explore The Current League Color Space in 3D!</h1>
     <iframe src="Chosen_Colors_test.html" width="750px" height="750px" id="testiframe"></iframe>
