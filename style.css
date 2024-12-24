@@ -1,44 +1,52 @@
 body {
-      font-family: Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100%;
-      margin: 0;
-      background-color: #f0f0f0;
-    }
-    .rectangle-container {
-      display: flex;
-        flex-wrap: wrap;
-      gap: 2px;
-        max-width: 50%;
-        justify-content: center;
-        margin: 0 auto;
-    }
-    .rectangle-container > div{
-        flex: 0 1 calc(25% - 50px); /* Each item takes 25% of the row width minus the gap */
-        box-sizing: border-box; /* Ensure padding/borders don't affect width */
-    }
-    .rectangle {
-      width: 75px;
-      height: 75px;
-      border-radius: 20px;
-    }
-#center-me {
-  width: 90%;
-  max-width: 1200px;
-  text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    margin: 0;
+    background-color: #f0f0f0;
 }
 
-#testiframe{
+.rectangle-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    max-width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.rectangle-container > div {
+    flex: 0 1 calc(25% - 50px); /* Each item takes 25% of the row width minus the gap */
+    box-sizing: border-box; /* Ensure padding/borders don't affect width */
+}
+
+.rectangle {
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+}
+
+#center-me {
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+#testiframe {
     border: none;
     overflow: hidden;
 }
 
-.myclass{
+.myclass {
 
 }
 
+.text-container {
+    margin-left: 25%;
+    margin-right: 25%;
+}
 p {
     text-align: left;
     font-size: large;
