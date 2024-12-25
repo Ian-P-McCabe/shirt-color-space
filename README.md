@@ -7,4 +7,5 @@ Lab colorspace.
 # Useful Links
 
 - Pros and Cons of Lab color: https://graphicdesign.stackexchange.com/questions/76824/what-are-the-pros-and-cons-of-using-lab-color
+- iOS Dev Guidelines: https://developer.apple.com/design/human-interface-guidelines/layout
 
