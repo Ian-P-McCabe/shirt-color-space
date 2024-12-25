@@ -11,14 +11,15 @@
 <div id="center-me">
     <h1>Dodgeball League Color Problem</h1>
     <div class="myclass">
+        <p>
+            The Stonewall Dodgeball league in DC has a problem - we need to select more shirt colors
+            for additional teams, but it looks like we've already used the entire rainbow!
+        </p>
         <div class="rectangle-container" id="rectangleContainer">
-            <p>
-                The Stonewall Dodgeball league in DC has a problem - we need to select more shirt colors
-                 for additional teams, but it looks like we've already used the entire rainbow!
-            </p>
+
         </div>
 
-        <div class="text-container">
+        <div>
             <p>
                 Luckily there are many other colors to pick from, you can see some below:
             </p>
@@ -33,7 +34,7 @@
                 System (PMS) codes beneath each shirt.
             </p>
             <p>The PMS provides a LAB color value, which is most useful to us.</p>
-            <img src="assets/Pantone_Gold.png" style="max-width: 100%"
+            <img src="assets/Pantone_Gold.png" style="max-width: 70%"
                  alt="Pantone Gold PMS 137C with associated color data."
             />
         </div>
@@ -55,28 +56,107 @@
         Using LAB values, we can plot colors in 3D space! You can see the colors currently selected below.
     </p>
 
+    <h2>Explore The Current League Color Space in 3D!</h2>
 
-    <h1>Explore The Current League Color Space in 3D!</h1>
-
-    <div style="display: flex">
+    <div class="another-test-div">
         <iframe src="Chosen_Colors_test.html" id="testiframe"></iframe>
     </div>
 
-    <h1>Delta E-CMC Proposed Additions</h1>
+    <h2>Delta E-CMC Proposed Additions</h2>
     <h2>From Most to Least Distant</h2>
-    <div class="rectangle-container" id="deltaECMC"></div>
+    <div class="rectangle-container" id="deltaECMC">
+        <div style="text-align: center; margin: 5px;">
+            <div class="rectangle" style="background-color: rgb(225, 6, 0);"></div>
+            <div style="margin-top: 2px; font-size: 12px; color: rgb(51, 51, 51); max-width: 75px;">Poppy</div>
+        </div>
+        <div style="text-align: center; margin: 5px;">
+            <div class="rectangle" style="background-color: rgb(242, 202, 0);"></div>
+            <div style="margin-top: 2px; font-size: 12px; color: rgb(51, 51, 51); max-width: 75px;">Maize Yellow</div>
+        </div>
+        <div style="text-align: center; margin: 5px;">
+            <div class="rectangle" style="background-color: rgb(255, 106, 57);"></div>
+            <div style="margin-top: 2px; font-size: 12px; color: rgb(51, 51, 51); max-width: 75px;">Orange</div>
+        </div>
+        <div style="text-align: center; margin: 5px;">
+            <div class="rectangle" style="background-color: rgb(255, 106, 57);"></div>
+            <div style="margin-top: 2px; font-size: 12px; color: rgb(51, 51, 51); max-width: 75px;">Heather Orange</div>
+        </div>
+        <div style="text-align: center; margin: 5px;">
+            <div class="rectangle" style="background-color: rgb(0, 150, 94);"></div>
+            <div style="margin-top: 2px; font-size: 12px; color: rgb(51, 51, 51); max-width: 75px;">Heather Kelly</div>
+        </div>
+        <div style="text-align: center; margin: 5px;">
+            <div class="rectangle" style="background-color: rgb(0, 191, 178);"></div>
+            <div style="margin-top: 2px; font-size: 12px; color: rgb(51, 51, 51); max-width: 75px;">Teal</div>
+        </div>
+        <div style="text-align: center; margin: 5px;">
+            <div class="rectangle" style="background-color: rgb(246, 235, 105);"></div>
+            <div style="margin-top: 2px; font-size: 12px; color: rgb(51, 51, 51); max-width: 75px;">Heather Yellow</div>
+        </div>
+        <div style="text-align: center; margin: 5px;">
+            <div class="rectangle" style="background-color: rgb(203, 96, 21);"></div>
+            <div style="margin-top: 2px; font-size: 12px; color: rgb(51, 51, 51); max-width: 75px;">Burnt Orange</div>
+        </div>
+        <div style="text-align: center; margin: 5px;">
+            <div class="rectangle" style="background-color: rgb(191, 13, 62);"></div>
+            <div style="margin-top: 2px; font-size: 12px; color: rgb(51, 51, 51); max-width: 75px;">Heather Red</div>
+        </div>
+        <div style="text-align: center; margin: 5px;">
+            <div class="rectangle" style="background-color: rgb(253, 210, 110);"></div>
+            <div style="margin-top: 2px; font-size: 12px; color: rgb(51, 51, 51); max-width: 75px;">Heather Yellow
+                Gold
+            </div>
+        </div>
+    </div>
 
-    <h1>Delta E-CIE 2000 Proposed Additions</h1>
+    <h2>Delta E-CIE 2000 Proposed Additions</h2>
     <h2>From Most to Least Distant</h2>
-    <div class="rectangle-container" id="deltaECIE"></div>
+    <div class="rectangle-container" id="deltaECIE">
+        <div style="text-align: center; margin: 10px;">
+            <div class="rectangle" style="background-color: rgb(0, 191, 178);"></div>
+            <div style="margin-top: 5px; font-size: 14px; color: rgb(51, 51, 51); max-width: 75px;">Teal</div>
+        </div>
+        <div style="text-align: center; margin: 10px;">
+            <div class="rectangle" style="background-color: rgb(0, 150, 94);"></div>
+            <div style="margin-top: 5px; font-size: 14px; color: rgb(51, 51, 51); max-width: 75px;">Heather Kelly</div>
+        </div>
+        <div style="text-align: center; margin: 10px;">
+            <div class="rectangle" style="background-color: rgb(0, 175, 215);"></div>
+            <div style="margin-top: 5px; font-size: 14px; color: rgb(51, 51, 51); max-width: 75px;">Turquoise</div>
+        </div>
+        <div style="text-align: center; margin: 10px;">
+            <div class="rectangle" style="background-color: rgb(242, 202, 0);"></div>
+            <div style="margin-top: 5px; font-size: 14px; color: rgb(51, 51, 51); max-width: 75px;">Maize Yellow</div>
+        </div>
+        <div style="text-align: center; margin: 10px;">
+            <div class="rectangle" style="background-color: rgb(246, 235, 105);"></div>
+            <div style="margin-top: 5px; font-size: 14px; color: rgb(51, 51, 51); max-width: 75px;">Heather Yellow</div>
+        </div>
+        <div style="text-align: center; margin: 10px;">
+            <div class="rectangle" style="background-color: rgb(0, 186, 179);"></div>
+            <div style="margin-top: 5px; font-size: 14px; color: rgb(51, 51, 51); max-width: 75px;">Heather Sea Green
+            </div>
+        </div>
+        <div style="text-align: center; margin: 10px;">
+            <div class="rectangle" style="background-color: rgb(225, 6, 0);"></div>
+            <div style="margin-top: 5px; font-size: 14px; color: rgb(51, 51, 51); max-width: 75px;">Poppy</div>
+        </div>
+        <div style="text-align: center; margin: 10px;">
+            <div class="rectangle" style="background-color: rgb(0, 122, 83);"></div>
+            <div style="margin-top: 5px; font-size: 14px; color: rgb(51, 51, 51); max-width: 75px;">Kelly</div>
+        </div>
+        <div style="text-align: center; margin: 10px;">
+            <div class="rectangle" style="background-color: rgb(255, 106, 57);"></div>
+            <div style="margin-top: 5px; font-size: 14px; color: rgb(51, 51, 51); max-width: 75px;">Heather Orange</div>
+        </div>
+        <div style="text-align: center; margin: 10px;">
+            <div class="rectangle" style="background-color: rgb(255, 106, 57);"></div>
+            <div style="margin-top: 5px; font-size: 14px; color: rgb(51, 51, 51); max-width: 75px;">Orange</div>
+        </div>
+    </div>
 
     <script type=module src="script.js"></script>
 
-    <!--    <script>-->
-    <!--        $(document).ready(function () {-->
-    <!--            $("#3dcontent").load("Chosen_Colors_test.html");-->
-    <!--        });-->
-    <!--    </script>-->
 </div>
 </body>
 </html>
