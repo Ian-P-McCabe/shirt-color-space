@@ -32,7 +32,7 @@ body {
     text-align: center;
 }
 
-#testiframe {
+.testiframe {
     border: none;
     overflow: hidden;
     width: 380px;
