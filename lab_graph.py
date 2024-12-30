@@ -100,12 +100,15 @@ def generate_lab_3d_all_colors(df, figure_title, output_filename):
         template="plotly",
         title=figure_title,
         scene=dict(
+            # TODO Adjust before publish
             aspectratio=dict(x=1, y=1, z=1),
             xaxis_title='a* (green to red)',
             yaxis_title='L* (black to white)',
             zaxis_title='b* (blue to yellow)',
             # Set appropriate ranges for each axis
+            # Originally -128, 128
             xaxis=dict(range=[-128, 128]),
+            # Originally [0, 100]
             yaxis=dict(range=[0, 100]),
             zaxis=dict(range=[-128, 128])
         ),
