@@ -78,14 +78,14 @@ def generate_lab_3d_all_colors(df, figure_title, output_filename):
         y=df['L'],        # L* axis (lightness)
         z=df['b'],        # b* axis (blue-yellow)
         mode='markers+text',
-        text=df['Hex'],
+        text=df['Color Name'],
         hovertemplate=
             '<b>%{text}</b><br>' +
             'L*: %{y:.1f}<br>' +
             'a*: %{x:.1f}<br>' +
             'b*: %{z:.1f}<br>',
         marker=dict(
-            size=7,
+            size=3,
             color=['#' + hex.strip() for hex in df['Hex']],  # Use actual hex colors
             opacity=1.0
         ),
