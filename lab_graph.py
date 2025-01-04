@@ -85,7 +85,7 @@ def generate_lab_3d_all_colors(df, figure_title, output_filename):
             'a*: %{x:.1f}<br>' +
             'b*: %{z:.1f}<br>',
         marker=dict(
-            size=10,
+            size=7,
             color=['#' + hex.strip() for hex in df['Hex']],  # Use actual hex colors
             opacity=1.0
         ),
@@ -160,3 +160,18 @@ def greedy_mdp(points, k):
         selected.add(best_point)
 
     return list(selected)
+
+
+def score(distance_matrix, chosen):
+    """
+    Scores the resultant set of points based off the average distance between all chosen points
+    :param distance_matrix: Matrix representing the distances between colors
+    :param chosen: Chosen points (from the set of colors)
+    :return: The average distance between all the provided (chosen) colors
+    """
+    subset_distances = distance_matrix[np.ix_(chosen, chosen)]
+    upper_triangle = np.triu(subset_distances, k=1)
+    avg_distance = upper_triangle.sum() / (upper_triangle != 0).sum()
+
+    return avg_distance
+
