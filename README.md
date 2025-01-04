@@ -38,6 +38,9 @@ the furthest minimum distance
 - Average CIE2000 Distance
   - Done
 
+- Create a convex hull of all the points and see what happens 
+  - Remove center points to make computation feasible for selecting every combo and scoring via volume
+
 - Volume of the Solid in Euclidean/CIE2000 Space
   - Want to come up with a perfect volume based off the CIE space and compare overlap with
   selected points (this is very difficult currently)
