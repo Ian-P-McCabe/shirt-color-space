@@ -39,6 +39,9 @@ the furthest minimum distance
   - Done
 
 - Create a convex hull of all the points and see what happens 
+  - Done, very easy
+  - Convex hull volume is a metric we can use to show how "colorful" a set of options are
+  - 
   - Remove center points to make computation feasible for selecting every combo and scoring via volume
 
 - Volume of the Solid in Euclidean/CIE2000 Space
@@ -49,6 +52,7 @@ the furthest minimum distance
   - Consider the current convex hull of the space the "high resolution space" and then
   downscale to 16 or 24 or n points
 
+- Surface Area?
 
 - K-Means Clustering / Voronoi Cells
 - If I have a point cloud and want to preserve the convex hull, how
