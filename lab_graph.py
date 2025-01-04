@@ -85,7 +85,7 @@ def generate_lab_3d_all_colors(df, figure_title, output_filename):
             'a*: %{x:.1f}<br>' +
             'b*: %{z:.1f}<br>',
         marker=dict(
-            size=3,
+            size=10,
             color=['#' + hex.strip() for hex in df['Hex']],  # Use actual hex colors
             opacity=1.0
         ),
