@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Not Final, Draft</title>
+</head>
+<body>
+<div>
+    <section>
+        <h1>Dodgeball League Color Problem Part 2:</h1>
+        <h1>Finding the Perfect Colors</h1>
+        <h3>by Ian McCabe</h3>
+
+        <p>
+            The aim of part 1 was to figure out which shirt colors
+            are the best to add to those already selected for the season.
+            We wanted to figure out which colors are the farthest from those
+            already chosen by the league. We used Lab-Color-Distance formulas
+            to select colors that are most distant, and chose from those.
+        </p>
+        <p>
+            We ended up doing part 1 because teams are allowed to select from 103 unique shirt colors, so it is easy
+            for teams to select colors that are too similar. One team must then select a new color that is deemed
+            distant
+            enough from all the other colors, so it's easy to tell teams apart. But what if we wanted to avoid this
+            situation entirely?
+        </p>
+        <p>
+            Instead of letting teams pick from 103 colors, we gave them 16 or 24 colors to pick from that would
+            guarantee
+            that all the colors are distinct to the human eye.
+        </p>
+    </section>
+
+    <section>
+        <h2>Lots of Combinations!</h2>
+
+        <p>
+            One way to approach this problem is to select the 16 colors that have the greatest average
+            distance between them. This would work, however:
+        </p>
+        <p>
+            If we want to pick 16 colors, we must run 2,245,547,413,628,550,570 calculations! (2 quintillion)
+        </p>
+        <p>
+            And if we want to pick 24 colors, we must run 178,409,928,551,259,450,861,900 calculations! (178 sextillion)
+        </p>
+    </section>
+</div>
+</body>
+</html>
