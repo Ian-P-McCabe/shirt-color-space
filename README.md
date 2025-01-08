@@ -53,6 +53,7 @@ the furthest minimum distance
   downscale to 16 or 24 or n points
 
 - Surface Area?
+- What sphere at 0,0 has a surface that intersects the most points?
 
 - K-Means Clustering / Voronoi Cells
 - If I have a point cloud and want to preserve the convex hull, how

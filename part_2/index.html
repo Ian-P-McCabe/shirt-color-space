@@ -20,9 +20,9 @@
         </p>
         <p>
             We ended up doing part 1 because teams are allowed to select from 103 unique shirt colors, so it is easy
-            for teams to select colors that are too similar. One team must then select a new color that is deemed
-            distant
-            enough from all the other colors, so it's easy to tell teams apart. But what if we wanted to avoid this
+            for teams to select colors that are too similar. When teams
+            choose colors that are too similar, one team must then select a new color that is deemed
+            from all the other colors, so it's easy to tell teams apart. But what if we wanted to avoid this
             situation entirely?
         </p>
         <p>
@@ -44,6 +44,28 @@
         </p>
         <p>
             And if we want to pick 24 colors, we must run 178,409,928,551,259,450,861,900 calculations! (178 sextillion)
+        </p>
+
+        <p>
+            To put those numbers into context, it would take ~10 days of compute time to find the 16 best colors,
+            and ~ 2175 years, 328 days, and 17 hours to find the 24 best colors!
+        </p>
+    </section>
+
+    <section>
+        <h2>The Maximum Diversity Problem</h2>
+
+        <p>
+            What we're attempting to do, finding a subset of colors with an optimal distance between them, is also
+            known as the Maximum Diversity Problem or MDP. The Maximum Diversity Problem falls into a class of
+            computer problems that are NP-Hard, or functionally unsolvable. We see the NP-Hard characteristics of
+            our color selection problem when the compute time goes from 10 days to 2175 years by adding 8 additional
+            colors to the number of colors we are selecting.
+        </p>
+
+        <p>
+            We can work around the complexity of our problem with a heuristic. A heuristic is a
+            problem-solving technique that uses shortcuts to find an approximate solution quickly.
         </p>
     </section>
 </div>
