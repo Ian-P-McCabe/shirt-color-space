@@ -67,6 +67,82 @@
             We can work around the complexity of our problem with a heuristic. A heuristic is a
             problem-solving technique that uses shortcuts to find an approximate solution quickly.
         </p>
+
+    </section>
+
+    <section>
+
+        <h2>Heuristic 1: Randomly Select Points</h2>
+        <p>
+            A simple way to pick colors is to randomly select them from the set of 103, this likely won't yeild the
+            best results, but it will give us a good baseline for future algorithms.
+        </p>
+
+        <p>
+            Selecting 100,000 random combinations of colors
+        </p>
+        <table>
+            <tr>
+                <th>Metric</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>Total Runtime</td>
+                <td>3.57 Seconds</td>
+            </tr>
+            <tr>
+                <td>Average Score</td>
+                <td>53.4505</td>
+            </tr>
+            <tr>
+                <td>Lowest Score</td>
+                <td>31.01996</td>
+            </tr>
+            <tr>
+                <td>Highest Score</td>
+                <td>Highest: 75.5356</td>
+            </tr>
+        </table>
+
+
+        <h2>Heuristic 2: Greedy Algorithms</h2>
+
+        <div>
+            <p>
+                Greedy algorithms work by picking the best option at each step of the algorithm. In our case, the
+                greedy algorithm will take two points and then iteratively select the 14 points that have the
+                greatest minimum distance from the current set.
+            </p>
+
+            <p>
+                We can easily run this algorithm on every combination of points, as 103 choose 2 is only 5253.
+            </p>
+
+            <table>
+            <tr>
+                <th>Metric</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>Total Runtime</td>
+                <td>15.251 Seconds</td>
+            </tr>
+            <tr>
+                <td>Average Score</td>
+                <td>77.4388</td>
+            </tr>
+            <tr>
+                <td>Lowest Score</td>
+                <td>72.5471</td>
+            </tr>
+            <tr>
+                <td>Highest Score</td>
+                <td>Highest: 81.9210</td>
+            </tr>
+        </table>
+
+        </div>
+
     </section>
 </div>
 </body>
