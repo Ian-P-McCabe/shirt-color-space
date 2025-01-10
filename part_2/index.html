@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="part2style.css"/>
     <title>Not Final, Draft</title>
 </head>
 <body>
@@ -37,7 +39,7 @@
 
         <p>
             One way to approach this problem is to select the 16 colors that have the greatest average
-            distance between them. This would work, however:
+            distance between them. This would work, however...
         </p>
         <p>
             If we want to pick 16 colors, we must run 2,245,547,413,628,550,570 calculations! (2 quintillion)
@@ -119,27 +121,45 @@
             </p>
 
             <table>
-            <tr>
-                <th>Metric</th>
-                <th>Score</th>
-            </tr>
-            <tr>
-                <td>Total Runtime</td>
-                <td>15.251 Seconds</td>
-            </tr>
-            <tr>
-                <td>Average Score</td>
-                <td>77.4388</td>
-            </tr>
-            <tr>
-                <td>Lowest Score</td>
-                <td>72.5471</td>
-            </tr>
-            <tr>
-                <td>Highest Score</td>
-                <td>Highest: 81.9210</td>
-            </tr>
-        </table>
+                <tr>
+                    <th>Metric</th>
+                    <th>Score</th>
+                </tr>
+                <tr>
+                    <td>Total Runtime</td>
+                    <td>15.251 Seconds</td>
+                </tr>
+                <tr>
+                    <td>Average Score</td>
+                    <td>77.4388</td>
+                </tr>
+                <tr>
+                    <td>Lowest Score</td>
+                    <td>72.5471</td>
+                </tr>
+                <tr>
+                    <td>Highest Score</td>
+                    <td>Highest: 81.9210</td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <h2>Heuristic 3: A Convex Hull</h2>
+            <p>
+                What is a Convex Hull? The formal definition is "The intersection
+                of all convex sets containing a given subset of Euclidean space."
+                However, an image outlining what the convex hull of a set of points
+                looks like is far more intuitive:
+            </p>
+
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231218123325/Convex-Hull.jpg"
+                 alt="Image showing a set of points and the associated convex hull"
+                 style='height: 100%; width: 100%; object-fit: contain'/>
+
+            <p>
+                The example above is for 2D space, but the idea is the same for 3d space.
+            </p>
 
         </div>
 
