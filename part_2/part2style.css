@@ -24,3 +24,9 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+div.iframeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
