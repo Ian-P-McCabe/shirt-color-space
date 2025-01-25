@@ -68,7 +68,7 @@ def generate_lab_3d(df, figure_title, output_file_name):
     return
 
 
-def generate_lab_3d_all_colors(df, figure_title, output_filename):
+def generate_lab_3d_all_colors(df, figure_title, output_filename=None):
     # Parse the L*a*b values from the string format
     df[['L', 'a', 'b']] = df['L*a*b Value'].str.split(', ', expand=True).astype(float)
 
@@ -113,8 +113,8 @@ def generate_lab_3d_all_colors(df, figure_title, output_filename):
             zaxis=dict(range=[-128, 128])
         ),
         #TODO Change for Export
-        width=500,
-        height=500,
+        width=351,
+        height=351,
         showlegend=False,
         margin=dict(l=1, r=1, t=1, b=1)
     )
@@ -130,7 +130,8 @@ def generate_lab_3d_all_colors(df, figure_title, output_filename):
     fig.show()
 
     # Optionally save to HTML file
-    #fig.write_html(output_filename + ".html")
+    if output_filename is not None:
+        fig.write_html(output_filename + ".html")
 
 
 def greedy_mdp(points, k):
