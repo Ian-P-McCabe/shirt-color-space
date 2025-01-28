@@ -14,23 +14,20 @@
         <h3>by Ian McCabe</h3>
 
         <p>
-            The aim of part 1 was to figure out which shirt colors
-            are the best to add to those already selected for the season.
-            We wanted to figure out which colors are the farthest from those
-            already chosen by the league. We used Lab-Color-Distance formulas
-            to select colors that are most distant, and chose from those.
+            In part one, we determined which team colors would be best to add to the upcoming dodgeball season. We
+            wanted to select colors that would be different from those already chosen, as teams with similar colors
+            are hard to tell apart. We used Lab-Color-Distance formulas to select colors that are most distant, and
+            chose from those.
+        </p>
+
+        <p>
+            The similar-color-problem in Part 1 arose because teams are allowed to select from 103 shirt colors. Many
+            of these colors are very similar, so it is easy for teams to select colors that are hard to tell apart.
+            What if we wanted to avoid this situation entirely?
         </p>
         <p>
-            We ended up doing part 1 because teams are allowed to select from 103 unique shirt colors, so it is easy
-            for teams to select colors that are too similar. When teams
-            choose colors that are too similar, one team must then select a new color that is deemed
-            from all the other colors, so it's easy to tell teams apart. But what if we wanted to avoid this
-            situation entirely?
-        </p>
-        <p>
-            Instead of letting teams pick from 103 colors, we gave them 16 or 24 colors to pick from that would
-            guarantee
-            that all the colors are distinct to the human eye.
+            Instead of letting teams pick from 103 colors, we gave them 16 or 24 colors to select from, and we
+            guaranteed that all the colors are far enough apart to not appear to similar.
         </p>
     </section>
 
@@ -58,9 +55,9 @@
         <h2>The Maximum Diversity Problem</h2>
 
         <p>
-            What we're attempting to do, finding a subset of colors with an optimal distance between them, is also
-            known as the Maximum Diversity Problem or MDP. The Maximum Diversity Problem falls into a class of
-            computer problems that are NP-Hard, or functionally unsolvable. We see the NP-Hard characteristics of
+            What we're attempting to do, finding a subset of colors with an optimal distance between them, is a
+            variation of the Maximum Diversity Problem or MDP. The Maximum Diversity Problem falls into a class of
+            computer science problems that are NP-Hard, or functionally unsolvable. We see the NP-Hard characteristics of
             our color selection problem when the compute time goes from 10 days to 2175 years by adding 8 additional
             colors to the number of colors we are selecting.
         </p>
@@ -74,42 +71,53 @@
 
     <section>
 
-        <h2>Heuristic 1: Randomly Select Points</h2>
+        <h2>Heuristic 1: Randomly Select Colors</h2>
         <p>
-            A simple way to pick colors is to randomly select them from the set of 103, this likely won't yeild the
-            best results, but it will give us a good baseline for future algorithms.
+            A simple heuristic we can use is randomly selecting colors from the set of 103. This likely won't yield the
+            best results, but scoring these random selections provides a useful baseline for future algorithms.
         </p>
 
         <p>
-            Selecting 100,000 random combinations of colors
+            I selected 100,000 random combinations of colors and calcualted the average, lowest, and highest score:
         </p>
-        <table>
+        <div class="tableDiv">
+            <table>
             <tr>
                 <th>Metric</th>
                 <th>Score</th>
+                <th>Unit</th>
             </tr>
             <tr>
                 <td>Total Runtime</td>
-                <td>3.57 Seconds</td>
+                <td>3.57</td>
+                <td>Seconds</td>
             </tr>
             <tr>
                 <td>Average Score</td>
                 <td>53.4505</td>
+                <td>Perceived LAB Color Distance</td>
             </tr>
             <tr>
                 <td>Lowest Score</td>
                 <td>31.01996</td>
+                <td>Perceived LAB Color Distance</td>
             </tr>
             <tr>
                 <td>Highest Score</td>
                 <td>75.5356</td>
+                <td>Perceived LAB Color Distance</td>
             </tr>
         </table>
+        </div>
+
+        <p style="color: red">
+            A random color palette might look like this: [Put a randomly generated color palette here]
+        </p>
 
 
         <h2>Heuristic 2: Greedy Algorithms</h2>
 
-        <div>
+        <div class="GreedyDiv">
             <p>
                 Greedy algorithms work by picking the best option at each step of the algorithm. In our case, the
                 greedy algorithm will take two points and then iteratively select the 14 points that have the
@@ -117,31 +125,52 @@
             </p>
 
             <p>
-                We can easily run this algorithm on every combination of points, as 103 choose 2 is only 5253.
+                We can easily run this algorithm on every combination of points, as
+                <math>
+                    <mo>(</mo>
+                    <mfrac linethickness="0">
+                        <mi>103</mi>
+                        <mi>2</mi>
+                    </mfrac>
+                    <mo>)</mo>
+                    <mo>=</mo>
+                    <mo>5253</mo>
+                </math>
             </p>
 
-            <table>
+            <div class="tableDiv">
+                <table>
                 <tr>
                     <th>Metric</th>
                     <th>Score</th>
+                    <th>Unit</th>
                 </tr>
                 <tr>
                     <td>Total Runtime</td>
-                    <td>15.251 Seconds</td>
+                    <td>15.25</td>
+                    <td>Seconds</td>
                 </tr>
                 <tr>
                     <td>Average Score</td>
-                    <td>77.4388</td>
+                    <td>77.44</td>
+                    <td>Perceived LAB Color Distance</td>
                 </tr>
                 <tr>
                     <td>Lowest Score</td>
-                    <td>72.5471</td>
+                    <td>72.55</td>
+                    <td>Perceived LAB Color Distance</td>
                 </tr>
                 <tr>
                     <td>Highest Score</td>
-                    <td>Highest: 81.9210</td>
+                    <td>81.92</td>
+                    <td>Perceived LAB Color Distance</td>
                 </tr>
             </table>
+            </div>
+
+            <p style="color: red">
+            The best greedily generated palette is this: [Put greedy color palette here]
+        </p>
         </div>
 
         <div>
@@ -162,18 +191,18 @@
                 for the set of colors below.
             </p>
 
-            <div class="iframeDiv">
-                <iframe src="plots/All_Points_350x350.html"></iframe>
-            </div>
+<!--            <div class="iframeDiv">-->
+<!--                <iframe src="plots/All_Points_350x350.html"></iframe>-->
+<!--            </div>-->
 
             <div style="width: 100%">
                 <img src="assets/down_arrow.svg" alt="Big down arrow."
                      style='width: 15%; object-fit: contain; padding-top: 10px; padding-bottom: 10px'/>
             </div>
 
-            <div class="iframeDiv">
-                <iframe src="plots/All_Points_Convex_Hull_350x350.html"></iframe>
-            </div>
+<!--            <div class="iframeDiv">-->
+<!--                <iframe src="plots/All_Points_Convex_Hull_350x350.html"></iframe>-->
+<!--            </div>-->
 
 
         </div>

@@ -30,3 +30,24 @@ div.iframeDiv {
     justify-content: center;
     align-items: center;
 }
+
+.tableDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 33%;
+    padding: 5px;
+        text-align: center;
+
+}
+td:nth-child(2){
+    background-color: lightgreen;
+}
