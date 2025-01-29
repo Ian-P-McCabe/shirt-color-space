@@ -51,3 +51,18 @@ th, td {
 td:nth-child(2){
     background-color: lightgreen;
 }
+
+.rectangle-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.rectangle {
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+}
