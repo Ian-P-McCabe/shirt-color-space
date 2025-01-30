@@ -40,3 +40,7 @@ function createShirtColorList(colors, element) {
 const lowestColors = await getData("https://raw.githubusercontent.com/Ian-P-McCabe/shirt-color-space/refs/heads/main/part_2/assets/lowest_random_sample_colors.json")
 const lowestColorsContainer = document.getElementById("lowestRandomColors")
 createShirtColorList(lowestColors, lowestColorsContainer)
+
+const highestColors = await getData("https://raw.githubusercontent.com/Ian-P-McCabe/shirt-color-space/refs/heads/main/part_2/assets/highest_random_sample_colors.json")
+const highestColorsContainer = document.getElementById("highestRandomColors")
+createShirtColorList(highestColors, highestColorsContainer)
