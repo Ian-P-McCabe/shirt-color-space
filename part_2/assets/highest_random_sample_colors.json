@@ -1,15 +1,39 @@
 [
   {
-    "Color Name": "Heather Tan",
-    "PMS Color Code": "232CP",
-    "L*a*b Value": "57.85, 0.22, 13.83",
-    "Hex": "958A73"
+    "Color Name": "Heather Deep Teal",
+    "PMS Color Code": "7699 C",
+    "L*a*b Value": "39.94, -10.92, -20.42",
+    "Hex": "34657F"
   },
   {
-    "Color Name": "Heather Aqua",
-    "PMS Color Code": "7702 C",
-    "L*a*b Value": "63.94, -22.86, -24.71",
-    "Hex": "48A9C5"
+    "Color Name": "Maize Yellow",
+    "PMS Color Code": "7548CP",
+    "L*a*b Value": "83.14, 5.01, 85.02",
+    "Hex": "F2CA00"
+  },
+  {
+    "Color Name": "Heather Forest",
+    "PMS Color Code": "343 U",
+    "L*a*b Value": "40.04, -13.04, 1.87",
+    "Hex": "48655B"
+  },
+  {
+    "Color Name": "Heather Green",
+    "PMS Color Code": "7491C",
+    "L*a*b Value": "53.50, -13.31, 37.24",
+    "Hex": "79863C"
+  },
+  {
+    "Color Name": "Yellow",
+    "PMS Color Code": "100CP",
+    "L*a*b Value": "92.09, -6.83, 62.42",
+    "Hex": "F6EB69"
+  },
+  {
+    "Color Name": "Heather Kelly",
+    "PMS Color Code": "340 C",
+    "L*a*b Value": "51.80, -65.36, 14.55",
+    "Hex": "00965E"
   },
   {
     "Color Name": "Aqua",
@@ -18,81 +42,57 @@
     "Hex": "4298B5"
   },
   {
-    "Color Name": "Athletic Heather",
-    "PMS Color Code": "428U",
-    "L*a*b Value": "72.55, -1.69, -3.38",
-    "Hex": "ACB3B8"
+    "Color Name": "Heather Team Purple",
+    "PMS Color Code": "2665 C",
+    "L*a*b Value": "45.45, 34.51, -52.90",
+    "Hex": "7D55C7"
   },
   {
-    "Color Name": "Heather Autumn",
-    "PMS Color Code": "Not Available",
-    "L*a*b Value": "50.73, 18.57, 22.73",
-    "Hex": "A26C53"
+    "Color Name": "Heather Sea Green",
+    "PMS Color Code": "2398 C",
+    "L*a*b Value": "66.81, -46.18, -10.83",
+    "Hex": "00BAB3"
   },
   {
-    "Color Name": "Storm",
-    "PMS Color Code": "424 CP",
-    "L*a*b Value": "49.87, -0.96, 3.27",
-    "Hex": "757870"
+    "Color Name": "Heather Ice Blue",
+    "PMS Color Code": "317 CP",
+    "L*a*b Value": "85.65, -11.38, -2.20",
+    "Hex": "BDDDD9"
   },
   {
-    "Color Name": "Heather Stone",
-    "PMS Color Code": "2327UP",
-    "L*a*b Value": "57.18, 1.72, 9.38",
-    "Hex": "908878"
+    "Color Name": "Vintage Black",
+    "PMS Color Code": "419 C",
+    "L*a*b Value": "13.35, -1.03, 0.45",
+    "Hex": "212322"
   },
   {
-    "Color Name": "Asphalt",
-    "PMS Color Code": "BLACK 7 U",
-    "L*a*b Value": "44.40, 1.22, 3.26",
-    "Hex": "6C6864"
+    "Color Name": "Poppy",
+    "PMS Color Code": "2347C",
+    "L*a*b Value": "49.45, 75.12, 67.21",
+    "Hex": "E10600"
   },
   {
-    "Color Name": "Deep Heather",
-    "PMS Color Code": "2333CP",
-    "L*a*b Value": "48.32, 1.69, 1.65",
-    "Hex": "75726F"
+    "Color Name": "Heather Mint",
+    "PMS Color Code": "2246 C",
+    "L*a*b Value": "81.11, -18.93, 7.16",
+    "Hex": "A8D5BA"
   },
   {
-    "Color Name": "Heather Storm",
-    "PMS Color Code": "Cool Grey 9 CP",
-    "L*a*b Value": "50.53, 0.21, -1.49",
-    "Hex": "76797A"
+    "Color Name": "Canvas Red",
+    "PMS Color Code": "201C",
+    "L*a*b Value": "36.70, 52.92, 23.20",
+    "Hex": "9D2235"
   },
   {
-    "Color Name": "Brown",
-    "PMS Color Code": "440CP",
-    "L*a*b Value": "25.05, 3.33, 6.64",
-    "Hex": "423A31"
+    "Color Name": "Red",
+    "PMS Color Code": "200C",
+    "L*a*b Value": "41.43, 65.63, 34.16",
+    "Hex": "BA0C2F"
   },
   {
-    "Color Name": "Pink",
-    "PMS Color Code": "706C",
-    "L*a*b Value": "86.80, 16.25, 1.44",
-    "Hex": "F7CED7"
-  },
-  {
-    "Color Name": "Heather Dusty Blue",
-    "PMS Color Code": "5575 CP",
-    "L*a*b Value": "67.82, -11.97, 2.72",
-    "Hex": "8FAD9F"
-  },
-  {
-    "Color Name": "Leaf",
-    "PMS Color Code": "2263CP",
-    "L*a*b Value": "57.33, -18.14, 19.97",
-    "Hex": "729364"
-  },
-  {
-    "Color Name": "Dark Grey",
-    "PMS Color Code": "432 CP",
-    "L*a*b Value": "29.23, -4.70, -6.17",
-    "Hex": "38484E"
-  },
-  {
-    "Color Name": "Evergreen",
-    "PMS Color Code": "343C",
-    "L*a*b Value": "31.90, -26.89, 6.33",
-    "Hex": "115740"
+    "Color Name": "Coral",
+    "PMS Color Code": "2024U",
+    "L*a*b Value": "70.82, 46.11, 35.75",
+    "Hex": "FF8870"
   }
 ]
