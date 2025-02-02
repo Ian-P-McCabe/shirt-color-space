@@ -9,7 +9,7 @@
 <body>
 <div>
     <section>
-        <h1>Dodgeball League Color Problem Part 2:</h1>
+        <h1>Dodgeball League Shirt Color Problem Part 2:</h1>
         <h1>Finding the Perfect Colors</h1>
         <h3>by Ian McCabe</h3>
 
@@ -27,7 +27,7 @@
         </p>
         <p>
             Instead of letting teams pick from 103 colors, we gave them 16 or 24 colors to select from, and we
-            guaranteed that all the colors are far enough apart to not appear to similar.
+            guaranteed that all the colors are far enough apart to not appear too similar.
         </p>
     </section>
 
@@ -56,8 +56,9 @@
 
         <p>
             What we're attempting to do, finding a subset of colors with an optimal distance between them, is a
-            variation of the Maximum Diversity Problem or MDP. The Maximum Diversity Problem falls into a class of
-            computer science problems that are NP-Hard, or functionally unsolvable. We see the NP-Hard characteristics of
+            variation of the Maximum Diversity Problem. The Maximum Diversity Problem falls into a class of
+            computer science problems that are NP-Hard, or functionally unsolvable. We see the NP-Hard characteristics
+            of
             our color selection problem when the compute time goes from 10 days to 2175 years by adding 8 additional
             colors to the number of colors we are selecting.
         </p>
@@ -82,39 +83,39 @@
         </p>
         <div class="tableDiv">
             <table>
-            <tr>
-                <th>Metric</th>
-                <th>Score</th>
-                <th>Unit</th>
-            </tr>
-            <tr style="background-color: lightgreen">
-                <td>Total Runtime</td>
-                <td>3.57</td>
-                <td>Seconds</td>
-            </tr>
-            <tr style="background-color: pink">
-                <td>Average Score</td>
-                <td>53.4505</td>
-                <td>Perceived LAB Color Distance</td>
-            </tr>
-            <tr style="background-color: pink">
-                <td>Lowest Score</td>
-                <td>31.01996</td>
-                <td>Perceived LAB Color Distance</td>
-            </tr>
-            <tr style="background-color: lightyellow">
-                <td>Highest Score</td>
-                <td>75.5356</td>
-                <td>Perceived LAB Color Distance</td>
-            </tr>
-        </table>
+                <tr>
+                    <th>Metric</th>
+                    <th>Score</th>
+                    <th>Unit</th>
+                </tr>
+                <tr style="background-color: lightgreen">
+                    <td>Total Runtime</td>
+                    <td>3.57</td>
+                    <td>Seconds</td>
+                </tr>
+                <tr style="background-color: pink">
+                    <td>Average Score</td>
+                    <td>53.4505</td>
+                    <td>Perceived LAB Color Distance</td>
+                </tr>
+                <tr style="background-color: pink">
+                    <td>Lowest Score</td>
+                    <td>31.01996</td>
+                    <td>Perceived LAB Color Distance</td>
+                </tr>
+                <tr style="background-color: lightyellow">
+                    <td>Highest Score</td>
+                    <td>75.5356</td>
+                    <td>Perceived LAB Color Distance</td>
+                </tr>
+            </table>
         </div>
 
-        <p> A low scoring (32.52, to be exact) random color palette looks like this:</p>
-        <div id="lowestRandomColors" class="rectangle-container"> </div>
+        <p> A low scoring (32.52) random color palette looks like this:</p>
+        <div id="lowestRandomColors" class="rectangle-container"></div>
         <p>How drab.</p>
 
-        <p> A high scoring (76.29, to be exact) random color palette looks like this:</p>
+        <p> A high scoring (76.29) random color palette looks like this:</p>
         <div id="highestRandomColors" class="rectangle-container"></div>
         <p>An improvement, but we can do better.</p>
 
@@ -143,37 +144,45 @@
 
             <div class="tableDiv">
                 <table>
-                <tr>
-                    <th>Metric</th>
-                    <th>Score</th>
-                    <th>Unit</th>
-                </tr>
-                <tr>
-                    <td>Total Runtime</td>
-                    <td>15.25</td>
-                    <td>Seconds</td>
-                </tr>
-                <tr>
-                    <td>Average Score</td>
-                    <td>77.44</td>
-                    <td>Perceived LAB Color Distance</td>
-                </tr>
-                <tr>
-                    <td>Lowest Score</td>
-                    <td>72.55</td>
-                    <td>Perceived LAB Color Distance</td>
-                </tr>
-                <tr>
-                    <td>Highest Score</td>
-                    <td>81.92</td>
-                    <td>Perceived LAB Color Distance</td>
-                </tr>
-            </table>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Score</th>
+                        <th>Unit</th>
+                    </tr>
+                    <tr>
+                        <td>Total Runtime</td>
+                        <td>15.25</td>
+                        <td>Seconds</td>
+                    </tr>
+                    <tr>
+                        <td>Average Score</td>
+                        <td>77.44</td>
+                        <td>Perceived LAB Color Distance</td>
+                    </tr>
+                    <tr>
+                        <td>Lowest Score</td>
+                        <td>72.55</td>
+                        <td>Perceived LAB Color Distance</td>
+                    </tr>
+                    <tr>
+                        <td>Highest Score</td>
+                        <td>81.92</td>
+                        <td>Perceived LAB Color Distance</td>
+                    </tr>
+                </table>
             </div>
 
-            <p style="color: red">
-            The best greedily generated palette is this: [Put greedy color palette here]
-        </p>
+            <p> The best (81.92) greedy color palette looks like this:</p>
+            <div id="highestGreedyColors" class="rectangle-container"></div>
+            <p>
+                Better! However, Heather Dusty Blue and Heather Prism Dusty Blue are awfully close!
+                (They are unique colors though)
+            </p>
+
+<!--            <p> A high scoring (76.29, to be exact) random color palette looks like this:</p>-->
+<!--            <div id="highestRandomColors" class="rectangle-container"></div>-->
+<!--            <p>An improvement, but we can do better.</p>-->
+
         </div>
 
         <div>
@@ -194,18 +203,18 @@
                 for the set of colors below.
             </p>
 
-            <div class="iframeDiv">
-                <iframe src="plots/All_Points_350x350.html"></iframe>
-            </div>
+<!--            <div class="iframeDiv">-->
+<!--                <iframe src="plots/All_Points_350x350.html"></iframe>-->
+<!--            </div>-->
 
             <div style="width: 100%">
                 <img src="assets/down_arrow.svg" alt="Big down arrow."
                      style='width: 15%; object-fit: contain; padding-top: 10px; padding-bottom: 10px'/>
             </div>
 
-            <div class="iframeDiv">
-                <iframe src="plots/All_Points_Convex_Hull_350x350.html"></iframe>
-            </div>
+<!--            <div class="iframeDiv">-->
+<!--                <iframe src="plots/All_Points_Convex_Hull_350x350.html"></iframe>-->
+<!--            </div>-->
 
 
         </div>
