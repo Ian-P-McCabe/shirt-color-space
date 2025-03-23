@@ -67,3 +67,9 @@ th, td {
     border-radius: 20px;
 }
 
+@media only screen and (min-width: 992px)  {
+       #center-me {
+           width: 50%;
+       }
+}
+
