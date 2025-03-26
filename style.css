@@ -34,13 +34,19 @@ body {
 
 @media only screen and (min-width: 992px)  {
        #center-me {
-           width: 50%;
+           width: 30%;
        }
 
-        .result-rectangle {
-            margin-inline: auto;
-            max-width: 515px;
-        }
+        /*.result-rectangle {*/
+        /*    margin-inline: auto;*/
+        /*    max-width: 515px;*/
+        /*}*/
+}
+
+@media only screen and (min-width: 1600px) {
+    #center-me {
+           width: 20%;
+       }
 }
 
 .testiframe {
