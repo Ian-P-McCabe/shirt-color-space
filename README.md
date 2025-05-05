@@ -59,11 +59,3 @@ the furthest minimum distance
 - If I have a point cloud and want to preserve the convex hull, how
 do I downscale most effectively? - How to score similarities between
 volumes?
-
-# Heading
-
-**Bold**
-
-some text
-
-more text here, text go brr
