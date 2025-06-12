@@ -16,7 +16,7 @@
         <p>
             In part one, we determined which team colors would be best to add to the upcoming dodgeball season. We
             wanted to select colors that would be different from those already chosen, as teams with similar colors
-            are hard to tell apart. We used Lab-Color-Distance formulas to select colors that are most distant, and
+            are hard to tell apart. We used Lab-Color-Distance formulas to select colors that are most distant and
             chose from those.
         </p>
 
@@ -42,7 +42,8 @@
             If we want to pick 16 colors, we must score 2,245,547,413,628,550,570 possible combinations! (2 quintillion)
         </p>
         <p>
-            And if we want to pick 24 colors, we must score 178,409,928,551,259,450,861,900 possible combinations! (178 sextillion)
+            And if we want to pick 24 colors, we must score 178,409,928,551,259,450,861,900 possible combinations! (178
+            sextillion)
         </p>
 
         <p>
@@ -56,7 +57,9 @@
 
         <p>
             What we're attempting to do, finding a subset of colors with an optimal distance between them, is a
-            variation of the Maximum Diversity Problem. The Maximum Diversity Problem falls into a class of
+            variation of the <a href="https://grafo.etsii.urjc.es/optsicom/mdp.html" target="_blank">Maximum Diversity
+            Problem</a>.
+            The Maximum Diversity Problem falls into a class of
             computer science problems that are NP-Hard, or functionally unsolvable. We see the NP-Hard characteristics
             of
             our color selection problem when the compute time goes from 10 days to 2175 years by adding 8 additional
@@ -149,22 +152,22 @@
                         <th>Score</th>
                         <th>Unit</th>
                     </tr>
-                    <tr>
+                    <tr style="background-color: lightgreen">
                         <td>Total Runtime</td>
                         <td>15.25</td>
                         <td>Seconds</td>
                     </tr>
-                    <tr>
+                    <tr style="background-color: lightyellow">
                         <td>Average Score</td>
                         <td>77.44</td>
                         <td>Perceived LAB Color Distance</td>
                     </tr>
-                    <tr>
+                    <tr style="background-color: lightyellow">
                         <td>Lowest Score</td>
                         <td>72.55</td>
                         <td>Perceived LAB Color Distance</td>
                     </tr>
-                    <tr>
+                    <tr style="background-color: lightgreen">
                         <td>Highest Score</td>
                         <td>81.92</td>
                         <td>Perceived LAB Color Distance</td>
@@ -185,7 +188,6 @@
             </p>
 
 
-
         </div>
 
         <div>
@@ -193,7 +195,7 @@
             <p>
                 What is a Convex Hull? The formal definition is "The intersection
                 of all convex sets containing a given subset of Euclidean space."
-                </p>
+            </p>
 
             <p> Huh. </p>
             <p>
@@ -207,21 +209,21 @@
 
             <p>
                 The example above is for 2D space, but the idea is the same for 3d space. We can see the convex hull
-                for the set of all colors below.
+                for the set of all colors below. (You can move the plots around with your mouse/finger)
             </p>
 
-<!--            <div class="iframeDiv">-->
-<!--                <iframe src="plots/All_Points_350x350.html"></iframe>-->
-<!--            </div>-->
+            <div class="iframeDiv">
+                <iframe id='preConvexPlot' height="350" width="350"></iframe>
+            </div>
 
             <div style="width: 100%">
                 <img src="assets/down_arrow.svg" alt="Big down arrow."
                      style='width: 15%; object-fit: contain; padding-top: 10px; padding-bottom: 10px'/>
             </div>
 
-<!--            <div class="iframeDiv">-->
-<!--                <iframe src="plots/All_Points_Convex_Hull_350x350.html"></iframe>-->
-<!--            </div>-->
+            <div class="iframeDiv">
+                <iframe id='convexPlot'></iframe>
+            </div>
 
             <p>
                 Incredibly, the convex hull of the shirt colors contains 21 points. We can easily remove the

@@ -52,3 +52,15 @@ createShirtColorList(highestGreedyColors, highestGreedyColorsContainer)
 const lowestGreedyColors = await getData("https://raw.githubusercontent.com/Ian-P-McCabe/shirt-color-space/refs/heads/main/part_2/assets/lowest_greedy_colors.json")
 const lowestGreedyColorsContainer = document.getElementById("lowestGreedyColors")
 createShirtColorList(lowestGreedyColors, lowestGreedyColorsContainer)
+
+async function loadIframes() {
+    console.log('Loading plots')
+    document.getElementById('preConvexPlot').src = 'https://ian-p-mccabe.github.io/shirt-color-space/part_2/plots/All_Points_350x350.html'
+    document.getElementById('convexPlot').src = 'https://ian-p-mccabe.github.io/shirt-color-space/part_2/plots/All_Points_Convex_Hull_350x350.html'
+}
+
+if (document.readyState === 'complete') {
+    loadIframes();
+} else {
+    window.addEventListener('load', loadIframes);
+}
