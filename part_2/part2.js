@@ -53,6 +53,14 @@ const lowestGreedyColors = await getData("https://raw.githubusercontent.com/Ian-
 const lowestGreedyColorsContainer = document.getElementById("lowestGreedyColors")
 createShirtColorList(lowestGreedyColors, lowestGreedyColorsContainer)
 
+const convex16 = await getData("https://raw.githubusercontent.com/Ian-P-McCabe/shirt-color-space/refs/heads/main/part_2/assets/convex_hull_16.json")
+const convex16Container = document.getElementById("convex16")
+createShirtColorList(convex16, convex16Container)
+
+const convex21 = await getData("https://raw.githubusercontent.com/Ian-P-McCabe/shirt-color-space/refs/heads/main/part_2/assets/convex_hull_21.json")
+const convex21Container = await document.getElementById("convex21")
+createShirtColorList(convex21, convex21Container)
+
 async function loadIframes() {
     console.log('Loading plots')
     document.getElementById('preConvexPlot').src = 'https://ian-p-mccabe.github.io/shirt-color-space/part_2/plots/All_Points_350x350.html'
